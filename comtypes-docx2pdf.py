@@ -4,8 +4,11 @@ import comtypes.client
 
 wdFormatPDF = 17
 
-in_file = os.path.abspath(sys.argv[1])
-out_file = os.path.abspath(sys.argv[2])
+inp = input('Enter an input file path: ')
+out = input('Enter an output file path: ')
+
+in_file = os.path.abspath(inp)
+out_file = os.path.abspath(out])
 
 word = comtypes.client.CreateObject('Word.Application')
 doc = word.Documents.Open(in_file)
