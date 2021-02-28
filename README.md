@@ -1,13 +1,12 @@
 **PDF-Tools README.md 
+**  
 
-\n
-\n
-
+  
 
 
 **Required Modules:
-\n
-
+**
+ 
 
 - Requires Python: Download from Microsoft Store, Conda, or Python.org - use Python 3.6+
 
@@ -19,12 +18,12 @@
 
 - append.py: Py2PDF2 (or legacy Py2PDF)
 
-\n
-\n
+ 
+
 
 **How these programs take input, work, and what they do:
-
-\n
+**
+ 
 
 
 - rename.py takes no input - all non-alphanumeric characters (besides whitespace and hyphens) will be removed from filenames
